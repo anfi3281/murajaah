@@ -13,8 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get("/hai", "haiController@index");
+Route::get("/", "portofolioController@index");
+Route::get("/kknplanjan", "kknplanjanController@index");

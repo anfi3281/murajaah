@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class haiController extends Controller
+class kknplanjanController extends Controller
 {
     public function index(){
-        return view('hai');
+        return view("kknplanjan.index");
     }
 }
